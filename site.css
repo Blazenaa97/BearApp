@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("n42305.jpeg");
+    background-image: url("../BearApp/assets/images/bg-main.jpeg");
     background-size: auto;
     background-blend-mode: soft-light;
     background-color: #808080;
@@ -16,12 +16,12 @@ body {
 
 .left1 {
     left: 0;
-    background-image: url(skiff.jpg);
+    background-image: url(../BearApp/assets/images/logo-main-bear.jpg);
 }
 
 .right1 {
     right: 0;
-    background-image: url(ubcj932yg4e61.jpg);
+    background-image: url(../BearApp/assets/images/bg-bear.jpg);
     background-blend-mode: soft-light;
 }
 .left2, .right2 {
@@ -34,14 +34,13 @@ body {
 
 .left2 {
     left: 0;
-    background-image: url(flat,750x,075,f-pad,750x1000,f8f8f8.jpg);
+    background-image: url(../BearApp/assets/images/logo-main-usec.jpg);
 }
 
 .right2 {
     right: 0;
-    background-image: url(content_thumb_5fac9d0f978abe80420146cd2e71d2d7.jpg);
+    background-image: url(../BearApp/assets/images/bg-usec.jpg);
     background-blend-mode: soft-light;
-
 }
 .left3, .right3 {
     height: 100%;
@@ -53,13 +52,13 @@ body {
 
 .left3 {
     left: 0;
-    background-image: url(bearbig.jpg);
+    background-image: url(../BearApp/assets/images/logo-main-scav.jpg);
     background-blend-mode: darken;
 }
 
 .right3 {
     right: 0;
-    background-image: url(artworks-1ayQeGD7CVunSl2v-dMWTMw-t500x500.jpg);
+    background-image: url(../BearApp/assets/images/bg-scav.jpg);
     background-blend-mode: soft-light;
     background-size: cover;
 }
