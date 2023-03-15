@@ -1,0 +1,29 @@
+
+.bg {
+    background-color: #111;
+}
+
+iframe.fixed {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+.column img {
+    width: 50%;
+}
+
+.column h1 {
+    font-size: 140px;
+    color: white;
+    text-align: center;
+    text-shadow: 6px 6px 10px #000000;
+}
+
+.column p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}

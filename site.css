@@ -1,13 +1,24 @@
+body, html {
 
-body {
-    background: url("../BearApp/assets/images/bg-main.jpeg") no-repeat center center fixed;
-    background-size: cover;
-    background-blend-mode: soft-light;
-    background-color: #808080;
+    min-height: 92vh;
 }
 
+
+.bg {
+    /* The image used */
+    background-image: url("../BearApp/assets/images/bg-main.jpeg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .button-group {
-    text-align: center;
+    display: inline-flex;
+    align-items: center;
 }
 
 
@@ -21,109 +32,16 @@ body {
         opacity: 1;
     }
 
+.logo-main {
+    width: 80%;
+    height: auto;
+}
+
+
+
 h1 {
     font-size: 140px;
-    color: #b2ad7f;
+    color: white;
     text-align: center;
     text-shadow: 6px 6px 10px #000000;
 }
-
-ul.a {
-    list-style-type: disc;
-    font-size: 25px;
-    font-weight: bold;
-    
-}
-
-h2 {
-    font-size: 30px;
-    text-align: center;
-    position: absolute;
-    left: 35%;
-    bottom: 0px;
-    background-color: #b2ad7f;
-    padding: 10px 20px;
-    cursor: pointer;
-    display: inline-block;
-    border-radius: 7px;
-}
-
-a {
-    color: black;
-}
-
-
-p {
-    font-size: 25px;
-    text-align: left;
-    padding: 3px;
-}
-.row {
-    display: flex;
-   
-}
-
-.column {
-    flex: 50%;
-}
-
-
-
-
-.left1, .right1 {
-    height: 100%;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    background-color: #808080;
-}
-
-.left1 {
-    left: 0;
-    background-image: url(../BearApp/assets/images/logo-main-bear.jpg);
-}
-
-.right1 {
-    right: 0;
-    background-image: url(../BearApp/assets/images/bg-bear.jpg);
-    background-blend-mode: soft-light;
-}
-.left2, .right2 {
-    height: 100%;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    background-color: #808080;
-}
-
-.left2 {
-    left: 0;
-    background-image: url(../BearApp/assets/images/logo-main-usec.jpg);
-}
-
-.right2 {
-    right: 0;
-    background-image: url(../BearApp/assets/images/bg-usec.jpg);
-    background-blend-mode: soft-light;
-}
-.left3, .right3 {
-    height: 100%;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    background-color: #808080;
-}
-
-.left3 {
-    left: 0;
-    background-image: url(../BearApp/assets/images/logo-main-scav.jpg);
-    background-blend-mode: darken;
-}
-
-.right3 {
-    right: 0;
-    background-image: url(../BearApp/assets/images/bg-scav.jpg);
-    background-blend-mode: soft-light;
-    background-size: cover;
-}
-
